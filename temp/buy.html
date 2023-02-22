@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    
+    <div class="movie-container">
+      <label> เลือกหนังที่จะดู:</label>
+      <select id="movie">
+        <option value="100">โคนัน (100 บาท)</option>
+        <option value="250">SAO (250 บาท)</option>
+        <option value="300">spider-man no way home (300 บาท)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>ว่าง</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>เลือกอยู่</small>
+      </li>
+      <li>
+        <div class="seat sold"></div>
+        <small>ขายแล้ว</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+     
+    
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+   
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      ที่นั่งที่เลือกแล้ว <span id="count">1</span> ราคาที่ต้องจ่าย<span
+        id="total"
+        >0</span>บาท
+    </p>
+    <script src="script.js"></script>
+    <button class="button button1">ไปไหนล่ะ</button>
+  </body>
+</html>
