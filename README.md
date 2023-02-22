@@ -9,9 +9,9 @@ This project is created for learning the principles of concurrency that can occu
 2. Open the Local Project with XAMPP :
     - Open XAMPP Control Panel
     - In Apache and MySQL Module, Click on both Admin Tabs to open Apache and PhpMyAdmin pages
-    - Put this Project Folder in YourDisk:\XAMPP\htdocs
-    - In PhpMyAdmin, import movie_ticket.sql file in new database
-    - After that, Open the project in browser (http://localhost/concurrent/)
+    - Put this Project Folder in "*YourDisk*:\XAMPP\htdocs"
+    - In PhpMyAdmin, import "movie_ticket.sql" file in new database
+    - After that, Open the project in browser (http://localhost/*Folder_Name*/)
 
 ## Example pages
 - ### Home Page
