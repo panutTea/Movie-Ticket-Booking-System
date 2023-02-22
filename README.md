@@ -1,10 +1,10 @@
-## Concurrent Project (204441)
+# Concurrent Project (204441)
 
 Project Name: Movie Ticket Booking System
 
 This project is created for learning the principles of concurrency that can occur in web applications by using PHP as the programming language. Learn by opening this website at the same time with few users and trying to book movie tickets for the same seat and time.
 
-### Local Project Running
+## Local Project Running
 1. Install XAMPP : https://www.apachefriends.org/
 2. Open the Local Project with XAMPP :
     - Open XAMPP Control Panel
